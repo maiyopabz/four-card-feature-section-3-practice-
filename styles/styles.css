@@ -1,0 +1,39 @@
+/*Colors*/
+*, ::after, ::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  background-color: #fafafa;
+  min-height: 100vh;
+  padding-top: 85px;
+  padding: 30px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 30px;
+  }
+}
+
+main {
+  max-width: 1440px;
+  font-size: 2.5em;
+  font-weight: 200;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 200;
+  color: #4c4e61;
+}
+
+main h1 span {
+  display: block;
+  font-weight: bold;
+}
+/*# sourceMappingURL=styles.css.map */
