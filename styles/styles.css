@@ -36,4 +36,12 @@ main h1 span {
   display: block;
   font-weight: bold;
 }
+
+main p {
+  max-width: calc(1440px/2);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #4c4e61;
+}
 /*# sourceMappingURL=styles.css.map */
